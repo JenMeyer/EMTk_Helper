@@ -5,7 +5,7 @@ This project offers three different scripts to help the user work with the [Emot
 It aims at easing the data generation before the EMTk analysis, the looping of the EMTk analysis for each emotion and
 the handling of the results afterwards.
 
-Both scripts currently only work with a local MongoDB Client.  The database entries in the collection that are for
+Both managing scripts currently only work with a local MongoDB Client.  The database entries in the collection that are for
 analysis need to have an *"_id"* field with a unique identifier for each entry and a *"text"* field containing the text you
 want to analyze with EMTk.
 
