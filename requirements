@@ -1,8 +1,5 @@
 pymongo
 tqdm
-sys
-pymongo
-os
 csv
 bson
 argparse
