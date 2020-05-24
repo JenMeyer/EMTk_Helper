@@ -23,7 +23,7 @@ The resulting file will be a csv file where the entries are separated by ";". It
 followed by the id and the text of each entry. For this purpose it is important for the entries to have an *"_id"* field
 (contains a unique id) and a *"text"* field (contains the to be analysed comment).
 
-**How to run**
+### How to run
 
 In your shell environment call this to execute it:
 
@@ -50,7 +50,7 @@ executed in the shared folder in EMTk where the user's files that are to be anal
 Please be aware that this script expects a csv file which entries are separated by ";". For easily achieving this,
 use the Input Manager to generate your input.
 
-**How to run:**
+### How to run:
 
 In your shell environment of EMTk run this to execute it:
 > ./multipleEmotionsEMTK.bash *file*
@@ -70,7 +70,7 @@ folder you shared with EMTk. If the folder contains other folders with the namin
 The id of the EMTk results need to correspond to the ids of your database entries (a field named "_id") but with an
 identifier leading the id. For easily achieving this, use the Input Manager to generate your input.
 
-**How to run**
+### How to run
 
 In your shell environment run this to execute it:
 
